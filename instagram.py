@@ -7,7 +7,7 @@ class InstaBot:
     def __init__(self, username, password):
         self.username = username #instanciando username
         self.password = password # instanciando password
-        self.driver = webdriver.Firefox(executable_path=r'C:\Users\user\Documents\jonny\Bot-redes\instagram\explorer.exe') #Passando local onde está o executal do webdriver
+        self.driver = webdriver.Firefox(executable_path=r'') #Passando local onde está o executal do webdriver
 
 
     def login(self):
